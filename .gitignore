@@ -1,0 +1,21 @@
+# Datos: NUNCA SE VERSIONAN
+
+*.csv
+*.parquet
+data/
+
+# entornos y secretos
+
+.env
+.venv/
+
+# Resultados regenerables
+
+figuras/*.png
+slides/build/
+
+# basura de herramientas
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
